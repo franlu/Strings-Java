@@ -18,7 +18,7 @@ A list of 10 exercises to practice with strings in Java. 🇬🇧
   Ej. El diccionario, pasaría a Elus Diccionarius.
 
 ### ejemplo04.java
-* Codificador de cadenas: el resultado será una cadena que se ha obtenido cambiando cada carácter por el carácter cuyo código ASCII es n unidades mayor.
+* Codificador de cadenas: el resultado será una cadena que se ha obtenido cambiando cada carácter por el carácter cuyo código ASCII es n unidades mayor. n es un valor que se le pide al usuario. Por ejemplo entre 1 y 10.
 
 ### ejemplo05.java
 * Se trata de averiguar si una cadena es un palíndromo o no. Un ejemplo de palíndromo: 'Dabale arroz a la zorra el abad'.
