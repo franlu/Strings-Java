@@ -13,14 +13,14 @@ public class String02 {
     public static void main(String[] args) {
         // TODO code application logic here
         
-        FINAL int maximo= 50;
+        final int MAXIMO= 50;
         
          System.out.println("Escribe un masimo de 50 caracteres");
         String caracteres = new Scanner(System.in).nextLine();
         
         String caracteresP = caracteres.replaceAll("\\s","");
         
-        if (caracteresP.length()< maximo){ 
+        if (caracteresP.length()< MAXIMO){ 
             System.out.println(caracteresP);
 
         }else{
