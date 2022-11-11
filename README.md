@@ -7,7 +7,7 @@ A list of 10 exercises to practice with strings in Java. 🇬🇧
 
 ### ejemplo01.java
 
-* Consiste en eliminar los espacios en blanco iniciales en una cadena. Por ejemplo, la cadena '   Python rocks!' quedaría 'Python rocks!'
+* Consiste en eliminar los espacios en blanco iniciales en una cadena. Por ejemplo, la cadena '   Java rocks!' quedaría 'Java rocks!'
 
 ### ejemplo02.java
 
