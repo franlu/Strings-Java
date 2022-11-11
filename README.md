@@ -1,5 +1,4 @@
 # Strings-Java
-strings-python
 --------------
 
 Una lista de 10 ejercicios para practicar con cadenas de caracteres en Java.
