@@ -21,7 +21,7 @@ public class String02 {
         String caracteresP = caracteres.replaceAll("\\s","");
         
         if (caracteresP.length()< maximo){ 
-            System.out.println(caracteresP.trim());
+            System.out.println(caracteresP);
 
         }else{
            System.out.println("Error has puesto mas de 50 caracteres");
