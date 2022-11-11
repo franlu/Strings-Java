@@ -16,7 +16,7 @@ public class String02 {
          System.out.println("Escribe un masimo de 50 caracteres");
         String caracteres = new Scanner(System.in).nextLine();
         
-        String caracteresP = caracteres.replaceAll("\\s+s","");
+        String caracteresP = caracteres.replaceAll("\\s","");
         
         if (caracteresP.length()< 50){ 
             System.out.println(caracteresP.trim());
