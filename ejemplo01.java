@@ -8,16 +8,14 @@ import java.util.Scanner;
  */
 public class Ejercicio07String {
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
-    System.out.println("dame la frase");
-        String a=new Scanner(System.in).nextLine();
-        String b=a.trim();
-        int d=a.indexOf(b);
-        String e=a.substring(d);
-    System.out.println(e);
+   public static void main(String[] args) {
+        System.out.println("dame la frase");
+            
+            String a=new Scanner(System.in).nextLine();
+            String b=a.trim();
+            int d=a.indexOf(b);
+            String e=a.substring(d);
+       
+        System.out.println(e);
     } 
 }
