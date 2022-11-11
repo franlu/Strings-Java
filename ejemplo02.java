@@ -13,7 +13,7 @@ public class String02 {
     public static void main(String[] args) {
         // TODO code application logic here
         
-        final int maximo= 50;
+        FINAL int maximo= 50;
         
          System.out.println("Escribe un masimo de 50 caracteres");
         String caracteres = new Scanner(System.in).nextLine();
