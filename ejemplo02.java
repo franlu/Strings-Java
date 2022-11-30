@@ -1,30 +1,31 @@
-package string02;
 import java.util.*;
 
 /**
  *
- * @author hidal
+ * @author Gabriel Hidalgo <hidalgoquinterogabriel@gmail.com>
+ * @author Fran Lucena <fran.lucena@gmail.com>
  */
-public class String02 {
+public class Ejemplo02 {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
-        
+         
         final int MAXIMO= 50;
         
-         System.out.println("Escribe un masimo de 50 caracteres");
-        String caracteres = new Scanner(System.in).nextLine();
+        System.out.println("Escribe un texto con un máximo de 50 caracteres");
         
-        String caracteresP = caracteres.replaceAll("\\s","");
+        String cadena = new Scanner(System.in).nextLine();
         
-        if (caracteresP.length()< MAXIMO){ 
-            System.out.println(caracteresP);
-
+        // Limpiar espacios en blanco
+        String caracteres = cadena.replaceAll("\\s+","");
+        
+        if (caracteresP.length() < MAXIMO){ 
+            
+            System.out.println("Enhorabuena, no has superado el límite de caracteres.");
+            
         }else{
-           System.out.println("Error has puesto mas de 50 caracteres");
+            
+           System.out.println("Has escrito más de 50 caracteres.");
+            
         }
         
     }
