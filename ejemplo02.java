@@ -24,7 +24,7 @@ public class Ejemplo02 {
             
         }else{
             
-           System.out.println("Has escrito más de 50 caracteres.");
+            System.out.println("Has escrito más de 50 caracteres.");
             
         }
         
