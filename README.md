@@ -33,7 +33,7 @@ A list of 10 exercises to practice with strings in Java. 🇬🇧
 * Se lee una cadena con el nombre completo de una persona (nombre(s), primer apellido y segundo apellido)  y se imprime una cadena con los apellidos y la(s) inicial(es) del nombre. Ej. 'Jose Luis Siqueira Recio' se imprime como 'Siqueira Recio, J.L.'
 
 ### ejemplo09.java
-* Se deben leer dos cadenas y comprobar si una cadena es anagrama( tienen las mismas letras pero en distinto nombre) de la otra.
+* Se deben leer dos cadenas y comprobar si una cadena es anagrama (las dos tienen las mismas letras, con el mismo número de apariciones, pero en un orden diferente) de la otra.
 
 ### ejemplo10.java
 * Leer una cadena, y hacer una estadística sobre cuantas veces aparece cada caracter, mostrando el resultado de mayor a menor respetando la alineación a la derecha de los números. Por ejemplo, para "nosotros no somos como los orozco, yo los conozco, son ocho los monos", debería mostrar:
