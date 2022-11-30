@@ -15,7 +15,7 @@ public class Ejemplo02 {
         
         String cadena = new Scanner(System.in).nextLine();
         
-        // Limpiar espacios en blanco
+        // Limpiar separadores
         String caracteres = cadena.replaceAll("\\s+","");
         
         if (caracteresP.length() < MAXIMO){ 
